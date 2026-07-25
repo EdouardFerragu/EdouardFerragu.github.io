@@ -164,14 +164,6 @@ img { max-width: 100%; display: block; }
   background: var(--paper-alt); border: 1px solid var(--line); border-radius: 100px; color: var(--ink-soft);
 }
 .section--alt .tags span { background: #fff; }
-.project-link {
-  display: flex; align-items: center; justify-content: space-between;
-  margin-top: 20px; padding-top: 16px; border-top: 1px solid var(--line);
-  color: var(--gold-deep); font-size: .76rem; font-weight: 600;
-  letter-spacing: .08em; text-transform: uppercase;
-}
-.project-link span { transition: transform .2s ease; }
-.project-link:hover span { transform: translateX(5px); }
 
 /* ===== Venues ===== */
 .venues { list-style: none; }
