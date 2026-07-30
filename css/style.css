@@ -152,12 +152,16 @@ img { max-width: 100%; display: block; }
   color: var(--gold-deep); font-size: .8rem; letter-spacing: .04em;
   text-transform: uppercase; font-weight: 500; margin-bottom: .7rem;
 }
-.card--project .card__thumb {
-  aspect-ratio: 16/9; border: 1px dashed var(--line); border-radius: 4px;
-  display: flex; align-items: center; justify-content: center;
-  color: #b9b1a2; font-size: .82rem; letter-spacing: .08em; text-transform: uppercase;
-  margin-bottom: 18px; background: var(--paper-alt);
+.card__media {
+  display: block; aspect-ratio: 16/9; margin: -10px -10px 20px;
+  overflow: hidden; border: 1px solid var(--line); border-radius: 3px;
+  background: var(--paper-alt);
 }
+.card__media img {
+  width: 100%; height: 100%; display: block; object-fit: cover;
+  transition: transform .4s ease;
+}
+.card__media:hover img { transform: scale(1.025); }
 .tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; }
 .tags span {
   font-size: .72rem; letter-spacing: .04em; padding: 5px 12px;
@@ -206,6 +210,16 @@ img { max-width: 100%; display: block; }
 .project-copy__lead {
   font-family: var(--serif); color: var(--ink) !important;
   font-size: clamp(1.45rem, 3vw, 2rem) !important; line-height: 1.35;
+}
+.project-screenshot {
+  margin: 32px 0 4px; overflow: hidden; background: #111;
+  border: 1px solid var(--line); border-radius: 4px;
+  box-shadow: 0 16px 38px rgba(0,0,0,.08);
+}
+.project-screenshot img { display: block; width: 100%; height: auto; }
+.project-screenshot figcaption {
+  padding: 10px 14px; background: #fff; color: var(--ink-soft);
+  font-size: .76rem; letter-spacing: .04em;
 }
 .project-section { padding-top: 34px; margin-top: 34px; border-top: 1px solid var(--line); }
 .project-section h2 {
