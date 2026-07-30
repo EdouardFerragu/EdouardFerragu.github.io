@@ -1,6 +1,7 @@
 # Edouard Ferragu — Personal Website
 
-A single-page personal site (inspired by the layout of mayanigrin.com), adapted for a pianist.
+A personal portfolio site (inspired by the layout of mayanigrin.com), adapted for a pianist and
+music-technology builder.
 
 ## Structure
 ```
@@ -10,7 +11,11 @@ website/
 ├── js/main.js          # nav, mobile menu, scroll reveal
 ├── images/
 │   ├── hero.jpg         # hero photo (Apex Competition, Steinway)
-│   └── hero-mobile.jpg  # smaller hero for phones
+│   ├── hero-mobile.jpg  # smaller hero for phones
+│   └── og-social.png    # social sharing preview
+├── projects/
+│   ├── baton-instrument.html
+│   └── auralis.html
 └── cv/
     ├── cv-source.html          # editable CV source
     └── Edouard-Ferragu-CV.pdf  # generated CV (linked by "Download CV")
