@@ -24,8 +24,8 @@ python3 -m http.server 4599
 ```
 
 ## Still to fill in (placeholders in index.html)
-1. **Social links** — find the `#social` block near the bottom and replace the
-   "Social links coming soon" line with `<a>` links (TikTok, LinkedIn, Instagram, YouTube).
+1. **Additional social links** — LinkedIn is included. Add TikTok, Instagram, or YouTube
+   to the `#social` block when those accounts are ready to share.
 2. **Project photos** — the two `.card__thumb` divs say "Photo coming soon". Replace each with
    `<img src="images/YOUR-PHOTO.jpg" alt="...">` once you have images of the baton instrument
    and the AI music tool.
